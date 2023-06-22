@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>RestAPI</name>
+		<internal_name>restapi</internal_name>
+		<descr><![CDATA[A REST API interface for pfSense]]></descr>
+		<website></website>
+		<category>System</category>
+		<version>%%PKGVERSION%%</version>
+		<status>beta</status>
+        <required_version>2.3.x, 2.4.x, 2.5.x, 2.6.x</required_version>
+		<configurationfile>restapi.xml</configurationfile>
+        <maintainer>a@aml.nyc</maintainer>
+	</package>
+</pfsensepkgs>

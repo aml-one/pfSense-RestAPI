@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE packagegui SYSTEM "../schema/packages.dtd">
+<?xml-stylesheet type="text/xsl" href="../xsl/package.xsl"?>
+<packagegui>
+	<copyright>
+	<![CDATA[
+/**
+ * RestAPI
+ *  - A REST API interface for pfSense
+ *  Based on: https://github.com/ndejong/pfsense_fauxapi by Nicholas de Jong
+ */
+	]]>
+	</copyright>
+	<description>A REST API interface</description>
+	<name>RestAPI</name>
+	<title>System: RestAPI</title>
+	<menu>
+            <name>RestAPI</name>
+            <tooltiptext>A REST API interface for pfSense</tooltiptext>
+            <section>System</section>
+            <url>/restapi/admin/credentials.php</url>
+	</menu>
+        <tabs>
+            <tab>
+                <text>API credentials</text>
+                <url>/restapi/admin/credentials.php</url>
+                <active/>
+            </tab>
+            <tab>
+                <text>Logs</text>
+                <url>/restapi/admin/logs.php</url>
+                <active/>
+            </tab>
+            <tab>
+                <text>About</text>
+                <url>/restapi/admin/about.php</url>
+            </tab>
+        </tabs>
+</packagegui>
