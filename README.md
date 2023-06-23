@@ -1,55 +1,3 @@
-<style>
-  .gf {
-    color: #6a9955;
-  }
-
-  .grf {
-    color: #9a996d;
-  }
-
-  .rf {
-    color: red;
-  }
-
-  .mf {
-    color: maroon;
-  }
-
-  .bf {
-    color: #5293c8;
-  }
-
-  .lbf {
-    color: #9bdafb;
-  }
-
-  .lyf {
-    color: #dcdcaa;
-  }
-
-  .yf {
-    color: #ffd700;
-  }
-
-  .sf {
-    color: #ce9178;
-  }
-
-  .vf {
-    color: #c586c0;
-  }
-
-  .phpExample {
-    background-color: #2e2e2e;
-    color: white;    
-    padding: 10px;
-    border: 1px solid #5293c8;
-  }
-
-  .bold {
-    font-weight: bold;
-  }
-</style>
 <div>
 <!--READMESTART-->
 <h1>
@@ -122,8 +70,8 @@ included below</p>
 <h2>
 <a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 
-<div class="highlight highlight-source-shell"><pre>fetch http://restapi.aml.one/restapi.tar.xz
-tar -xf restapi.tar.xz
+<div class="highlight highlight-source-shell"><pre>fetch https://github.com/aml-one/pfSense-RestAPI/raw/main/releases/restapi_latest.tar.xz
+tar -xf restapi_latest.tar.xz
 cd pfSense-pkg-RestAPI
 ./install.sh
 </pre></div>
