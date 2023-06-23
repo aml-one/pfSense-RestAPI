@@ -1,7 +1,7 @@
 <div>
 <!--READMESTART-->
 <h1>
-<a id="user-content-RestAPI---v10" class="anchor" href="#RestAPI---v10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RestAPI - v1.0</h1>
+<a id="user-content-RestAPI---v10" class="anchor" href="#RestAPI---v10" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfSense RestAPI - v1.0</h1>
 <p>A REST API interface for pfSense 2.3.x, 2.4.x, 2.5.x, 2.6.x to facilitate devops:-</p>
 <ul>
 <li>Based on: <a href="https://github.com/ndejong/pfsense_FauxAPI">FauxAPI</a> by Nicholas de Jong &copy; 2016</li>
